@@ -17,8 +17,8 @@
 class Welcome extends React.Component {
     render() {
         let ele = (
-            <div>
-                <div><span>Welcome to React-worlds</span></div>
+            <div className="alert alert-info">
+                <span>{this.props.message}</span>
             </div>
         )
         return ele;
@@ -26,7 +26,8 @@ class Welcome extends React.Component {
 }
 
 //#2 create instance of component-class
-let wel = React.createElement(Welcome, null, null);
+// let wel = React.createElement(Welcome, null, null);
+let wel=<Welcome message="Welcome to IBM"/>
 
 
 //#3 Render to VirtualDOM

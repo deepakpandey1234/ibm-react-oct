@@ -1,0 +1,21 @@
+
+
+React
+----------
+
+
+1. basic component
+
+2. React component's props & state
+
+   e.g in HTML
+
+   component
+      - props
+      - state
+  
+   <div>
+        <input type="text" onevent="handler()"/>
+   </div>
+
+2. React Nested components
