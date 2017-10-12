@@ -1,0 +1,66 @@
+
+
+
+problems in .js-dev with module-standards & loaders
+
+
+--> global naming collisions
+
+    soln: using 'self executable dunction' patterns
+
+--> loading dependency modules in order
+
+-------------------------------------------
+
+soln:
+
+    using js-module standards & loaders
+
+
+    from third-parties
+
+
+    --> AMD ( Asynchronous Module Definition )
+    --> commonJS
+    --> UMD
+    ........
+
+    from ECMAScript 
+
+    --> ES6 modules    
+
+
+    ---------------------------------------------
+
+    commonJS standards
+
+
+    --> every .js file is module
+    --> all var&function are private to that module
+    --> to abstract/export any members, use 'module.exports'
+    --> to import/require any members from other module , use 'require'
+    --> we can group related modules onto package with description file ( package.json)
+
+
+    Node.js already impleted this module standard as default
+
+    -------------------------------------------
+
+
+    NPM ( Node Package Manager )
+
+    --> to export/import node-packages from NPMRepository
+
+    -------------------------------------------
+
+    ES6 modules    
+
+
+   
+
+    --> every .js file is module
+    --> all var&function are private to that module
+    --> to abstract/export any members, use 'export' keyword
+    --> to import/require any members from other module , use 'import' keyword
+    --> we can group related modules onto package with description file ( package.json)
+

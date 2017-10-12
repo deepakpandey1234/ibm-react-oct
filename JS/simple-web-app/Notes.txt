@@ -1,0 +1,81 @@
+
+
+what .js program can do on HTML page in browser-envi?
+
+
+using browser provided APIs, 
+can bring dynamic content/behav to webpage
+
+using DOM
+-----------
+--> can create,retreive,update,delete HTML elements
+--> can change element's text/html content
+--> can change element's attributes
+--> can change element's style
+--> can listen events
+---> can validate form fields before submit
+.......
+
+using XHR
+----------
+--> can sens async http request to server
+
+using Timer API
+----------------
+--> can execute timer actions..
+
+
+using HTML5 APIs
+-----------------
+
+ref : https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5
+
+---------------------------------------------------
+
+
+
+problems with plain-js(your-code) with browser APIs
+---------------------------------------------
+
+--> too much code for simple operations
+--> browser compatability 
+--> performance ( i.e DOM query,insert,delete,update)
+--> memory management ( i. clean un-used DOm elements , un-register event listners)
+--> code oraganization is difficult
+
+----------------------------------------------
+
+
+using third-party's JS-lib & F.Ws
+
+
+--> jQuery
+
+
+MVC / MVVM based F.Ws
+
+--> backbone
+--> marionetjs
+--> Angularjs  : google team
+--> knockoutjs
+--> emberjs
+.....
+
+UI components tool-kits
+
+--> DOJO
+--> sencha 'Ext JS'  
+
+---------------------------
+
+w3c -> web-component standard  ( draft )
+
+
+
+facebook -> React  
+google-team --> Angular
+polymerjs
+vue.js
+....
+
+
