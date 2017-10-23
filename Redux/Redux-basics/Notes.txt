@@ -1,0 +1,30 @@
+
+
+e.g CounterApp
+
+
+step-1:  Action(s)
+
+
+ - inc => {type:'INCREMENT',value:1}
+ - dec => {type:'DECREMENT',value:10}
+
+
+Action-Creators
+
+e.g
+
+   function increment(value){
+       return {type:'INCREMENT',value:1};
+   }
+
+   function decrement(value){
+       return {type:'INCREMENT',value:1};
+   }
+
+---------------------------------------------
+
+
+
+
+
